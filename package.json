@@ -1,19 +1,29 @@
 {
-    "name": "bookstore-solution",
-    "version": "1.0.0",
-    "main": "app.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "description": "",
-    "dependencies": {
-      "express": "^4.16.3",
-      "jsonschema": "^1.2.4",
-      "locus": "^2.0.1",
-      "pg": "^8.3.3",
-      "supertest": "^3.3.0"
-    }
-  }
+  "name": "bookstore-solution",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "jsonschema": "^1.2.4",
+    "locus": "^2.0.1",
+    "pg": "^8.3.3",
+    "supertest": "^3.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lynxkub/bookstore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lynxkub/bookstore/issues"
+  },
+  "homepage": "https://github.com/Lynxkub/bookstore#readme",
+  "description": ""
+}
